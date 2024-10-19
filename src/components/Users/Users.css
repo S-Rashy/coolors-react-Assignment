@@ -1,0 +1,13 @@
+.userImg img{
+    width: 60px;
+    transition: transform ease 0.3s;
+
+}
+.userImg img:hover{
+    /* width: 70px; */
+    /* height: 70px; */
+    /* border: 1px solid; */
+    transform: scale(1.5);
+    
+    /* transform: rotate('50deg'); */
+}

@@ -1,0 +1,30 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 20px;
+    border-bottom: 1px solid lightgray;
+   
+}
+.navright{
+    width: 350px;
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    a{
+        text-decoration: none;
+        color: black;
+    }
+}
+#goPro{
+    color: rgb(254, 75, 105);
+    /* border-right: 1px solid; */
+}
+.navOne{
+    width: 150px;
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: space-evenly;
+    border-right: 1px solid lightgray;
+    height: 30px;
+}

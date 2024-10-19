@@ -1,0 +1,55 @@
+.midApps{
+    height: 290px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(247,247,248);
+    /* border: 0; */
+    border-radius: 10px;
+    img{
+        width: 80px;
+    }
+    h2{
+        display: none;
+        font-size: 30px;
+        width: 150px;
+        line-height: 40px;
+    }
+    h3{
+        font-size: 26px;
+    }
+}
+.midApps:hover{
+    /* border: 2px solid red; */
+    h3, p, img{
+        display: none;
+    }
+    h2{
+        display: block;
+    }
+   
+}
+.ios:hover{
+    background-color: rgb(216,246,255);
+    color: rgb(0,174,229);
+}
+.android:hover{
+    background-color: #D5F8EF ;
+    color: rgb(20, 183, 137);
+}
+.figma:hover{
+    background-color: #FFE5F4;
+    color: #E50087;
+}
+.chrome:hover{
+    background-color: #E8E2F7;
+    color: #802FDE;
+}
+.adobe:hover{
+    background-color: #FDF3CE;
+    color: #DAAB00;
+}

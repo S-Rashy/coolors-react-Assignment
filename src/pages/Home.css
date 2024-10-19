@@ -1,0 +1,22 @@
+.heroApps{
+    display: flex;
+    justify-content: space-around;
+    max-width: 95vw;
+    /* border: 1px solid; */
+    margin: auto;
+}
+.users{
+    display: flex;
+    flex-wrap: wrap;
+    width: 75vw;
+    margin: 50px auto;
+    justify-content: center;
+    gap: 45px;
+}
+#user{
+    margin: 70px ;
+    display: block;
+    /* border: 1px solid; */
+    text-align: center;
+    font-size: 20px;
+}

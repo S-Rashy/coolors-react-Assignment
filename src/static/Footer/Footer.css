@@ -1,0 +1,40 @@
+footer{
+    /* display: flex;
+    justify-content: space-around; */
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+    height: 550px;
+    /* border-bottom: 1px solid; */
+    padding: 20px 0px 20px 40px;
+    background-color: rgb(247,247,248);
+
+    a{
+        text-decoration: none;
+        color: black;
+        font-size: 17px;
+        font-weight: 400;
+    }
+
+    h3{
+        font-size: 25px;
+    }
+}
+a:hover{
+    color: #0066FF;
+}
+.footerLinks, .apps{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    gap: 17px;
+    /* border: 1px solid; */
+
+    div{
+        width: 200px;
+    }
+}
+.apps{
+    height: 300px;
+    /* border: 1px solid; */
+}
