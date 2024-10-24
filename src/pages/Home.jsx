@@ -18,7 +18,7 @@ import Warner from "../assets/warner-bros.svg"
 import Netflix from "../assets/netflix.svg"
 import AirBnB from "../assets/airbnb.svg"
 import Dropbox from "../assets/dropbox.svg"
-import Hasbro from "../assets/hasbro.png"
+// import Hasbro from "../assets/hasbro.png"
 import Ubisoft from "../assets/ubisoft.svg"
 import EA from "../assets/ea.svg"
 import Apple from "../assets/apple.svg"
@@ -51,7 +51,7 @@ const Home = () => {
             <Users Img={Netflix}/>
             <Users Img={AirBnB}/>
             <Users Img={Dropbox}/>
-            <Users Img={Hasbro}/>
+            {/* <Users Img={Hasbro}/> */}
             <Users Img={Ubisoft}/>
             <Users Img={EA}/>
             <Users Img={Apple}/>
